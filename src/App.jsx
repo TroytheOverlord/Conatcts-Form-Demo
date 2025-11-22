@@ -1,10 +1,10 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 import ContactCollector from "./ContactCollector";
 import ContactsPage from "./ContactsPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div>
 
         {/* Simple top navigation */}
@@ -14,11 +14,11 @@ function App() {
         </nav>
 
         <Routes>
-          <Route path="/" element={<ContactCollector />} />
+          <Route index element={<ContactCollector />} />
           <Route path="/contacts" element={<ContactsPage />} />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

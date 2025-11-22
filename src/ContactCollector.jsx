@@ -100,15 +100,6 @@ export default function ContactCollector() {
               Add Entry
             </button>
 
-            {/* View contacts (new tab) */}
-            <a
-              href="/contacts"
-              target="_blank"
-              className="block text-center text-blue-600 hover:text-blue-800 text-sm underline"
-            >
-              View All Contacts
-            </a>
-
             {message && (
               <p className="text-sm text-center text-green-600">{message}</p>
             )}

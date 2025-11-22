@@ -90,7 +90,7 @@ export default function ContactsPage() {
       </div>
 
       <a
-        href="/"
+        href="#/"
         className="inline-block mt-6 text-blue-600 underline hover:text-blue-800"
       >
         ← Back to Form
