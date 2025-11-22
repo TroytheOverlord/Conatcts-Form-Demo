@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Conatacts-Form-Demo/',  // IMPORTANT
+  base: '/Contacts-Form-Demo/',  // IMPORTANT
 })
